@@ -1,0 +1,93 @@
+/*
+ Theme Name: WP Bootstrap Starter Child
+ Theme URI: https://afterimagedesigns.com/wp-bootstrap-starter/
+ Author: Afterimage Designs
+ Author URI: https://afterimagedesigns.com/
+ Description:  The best WordPress starter theme based on the most powerful frameworks in the world: "_s" (by Automattic, the main people behind WordPress development), Twitter Bootstrap (the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web) and Font Awesome (or Fontawesome, a full suite of 675+ pictographic icons for easy scalable vector graphics on websites). This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on how we can continuously improve this WordPress Starter Theme Bootstrap will be highly appreciated. Page templates includes Right-sidebar (default page template), Left-Sidebar, Full-Width, Blank with container, Blank without container Page. Other features - Currently using Bootstrap v4.0.0 , Widgetized footer area, WooCommerce ready, Compatible with Contact Form 7, Compatible with Visual  Composer, Compatible with Elementor Page Builder. This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
+ Template:    wp-bootstrap-starter
+ Text Domain: wp-bootstrap-starter
+ Version:      1.0.0
+ Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
+*/
+
+/*New Homepage*/
+.commit-text {
+    font-size: 35px;
+    line-height: 52px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    max-width: 1020px;
+    margin: auto;
+}
+.serving-text {
+    font-weight: 500;
+    font-size: 21px;
+    color: #fff;
+    max-width: 739.96px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+	margin-top:3rem;
+}
+
+
+.triangle-bg{
+	background:linear-gradient(180deg, rgba(255, 255, 255, 0) 58.33%, #FFFFFF 63%), url("./images/header triangle background.png")
+}
+
+
+.law-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 730px;
+    margin: auto;
+    text-align: center;
+    line-height: 28px;
+}
+.meet-link a {
+    color: #7C96B2;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.professional-head {
+    text-align: center;
+    color: #777777;
+    opacity: 0.6;
+    font-weight: 700;
+    font-size: 20px;
+}
+.sg-row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.align-items-center{
+	align-items:center;
+}
+.img-div {
+    width: 90px;
+    height: 70px;
+    margin: auto;
+	display: flex;
+    align-items: center;
+}
+.img-div img {
+    width: 100%;
+
+}
+.sg-row .col-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.media-img img{
+	    width: 100%;
+    height: 70px!important;
+    object-fit: cover;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
